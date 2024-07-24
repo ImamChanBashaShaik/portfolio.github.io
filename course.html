@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.style.css">
+    <title>Course Information: </title>
+    <style>
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Centering the content */
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 12px; /* Decrease font size for the footer */
+}
+.footer-text {
+    font-size: 12px; /* Adjust the font size as needed */
+    color: #fff; /* Text color */
+    margin: 0; /* Remove any default margins */
+    border: 1px solid #fff; /* Border color and width */
+    padding: 5px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+/* Back button styling */
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Style for navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Course Details: </h1>
+            <a href="index.html" class="back-button">Back</a>
+        </header>
+        
+        <section class="course-info">
+            
+            <p><strong>Course Name:</strong> Java Full Stack Web Development<br>
+            <strong>Course Duration:</strong> 5 months<br>
+            <strong>Location:</strong> Benguluru</p>
+            <main>
+                <img src="certificate.jpg" alt="Course Certificate" class="profile-img">
+            </main>
+        </section>
+
+    
+        <footer>
+            <p class="footer-text">&copy; 2024 Imam Chan Basha Shaik</p>
+        </footer>
+    </div>
+</body>
+</html>
